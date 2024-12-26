@@ -1,0 +1,97 @@
+        // Q1> write a code to show to below output
+        // let s="mayur";
+       
+
+// function getLetter(s) {
+//     let letter;
+
+//    switch(s)
+//    {
+//     case 0:
+//     s='a'||'e'||'i'||'o'||'u';
+//     return "A"
+    
+//     break;
+//     case 1:
+//     s='b'||'c'||'d'||'f'||'g';
+//     return "B"
+//     break;
+//     case 2:
+//     s='h'||'j'||'k'||'l'||'m';
+//     return "C"
+//     break;
+//     case 3:
+//     s='n'||'o'||'p'||'q'||'r'||'s'||'t'||'u'||'v'||'w'||'x'||'y'||'z'
+//     return "D"
+//     break;
+
+//    }
+    
+//     return letter;
+// }
+
+// second code
+// Q2>write a code to find second largest element in array
+
+// let arr=[90,80,43,23,12,10];
+
+
+// console.log(arr.sort());
+// let arr1=[];
+// for (let i = arr.length-1; i >=0 ; i--) 
+// {
+//     arr1.push(arr[i])
+    
+// }
+// console.log(arr1);
+// console.log(arr1[1]);
+
+
+// third code 
+// Q3>write a code to camparing score
+
+// process.stdin.resume();
+// process.stdin.setEncoding('utf-8');
+
+// let inputString = '';
+// let currentLine = 0;
+
+// process.stdin.on('data', inputStdin => {
+//     inputString += inputStdin;
+// });
+
+// process.stdin.on('end', _ => {
+//     inputString = inputString.trim().split('\n').map(string => {
+//         return string.trim();
+//     });
+    
+//     main();    
+// });
+
+// function readLine() {
+//     return inputString[currentLine++];
+// }
+
+// function getGrade(score) {
+//     let grade;
+//     if(score>25 && score>=30)
+//     {
+//         console.log("A")
+//     }
+//     if(score>20 && score>=25)
+//     {
+//         console.log("B")
+//     }
+//     if(score>15 && score>=20)
+//     {
+//         console.log("C")
+//     }
+//     return grade;
+// }
+
+
+// function main() {
+//     const score = +(readLine());
+    
+//     console.log(getGrade(score));
+// }
