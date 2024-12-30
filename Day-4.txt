@@ -1,0 +1,168 @@
+    // Q1> Print numbers from 1 to 10
+    let arr=[];
+    for (let i = 1; i <=10; i++) {
+       arr.push(i);
+        
+    }
+    console.log(arr);
+
+
+    // Q2>Print the odd numbers less than 100
+    let odd=[];
+    for (let i = 0; i <=100; i++) {
+        if (i%2==1 && i<=100)
+         
+        {
+          odd.push(i);  
+        }
+        
+    }
+    console.log(odd);
+    
+
+    // Q3> Print the multiplication table with 7
+    let table=7;
+    let total =0;
+    let tablearr=[]
+    for (let i = 1; i <=10; i++) {
+        total=table*i;
+        tablearr.push(total); 
+
+        
+    }
+    console.log(tablearr);
+
+
+    // Q4 Print all the multiplication tables with numbers from 1 to 4
+    
+function tables() 
+{function one()
+    {
+        let ones=1;
+        
+    for (let i = 1; i <=10; i++) {
+        
+        console.log(ones*i);
+        
+    }
+    }
+    function two()
+    {
+        let twos=2;
+        
+    for (let i = 1; i <=10; i++) {
+        
+        console.log(twos*i);
+        
+    }
+    }
+    function three()
+    {
+        let threes=3;
+        
+    for (let i = 1; i <=10; i++) {
+        
+        console.log(threes*i);
+        
+    }
+    }
+    function four()
+    {
+        let fours=4;
+        
+    for (let i = 1; i <=10; i++) {
+        
+        console.log(fours*i);
+        
+    }
+    }
+    one();
+    two();
+    three();
+    four();
+    
+    
+
+}
+tables();
+// Q5 Calculate the sum of numbers from 1 to 10
+let sum=0;
+for (let i = 0; i <=10; i++) {
+    
+    sum=sum+i;
+}
+console.log(sum);
+
+
+// Q6> Calculate 10!
+
+let factsum=1;
+for (let i=1;i<=2;i++) 
+{     factsum=factsum*i;
+    
+    console.log(factsum);
+
+
+
+    
+}
+
+// Q7 Calculate the sum of even numbers greater than 10 and less than 30
+let evenSum=0;
+for (let i = 0; i <=100; i++) {
+
+if (i%2==0 && i>=10 && i<=30) 
+{
+    evenSum+=i;
+    
+}1
+}
+console.log(evenSum);
+
+// Q8>Create a function that will convert from Celsius to Fahrenheit
+let argu= prompt("enter temp in Celsius");
+
+function Converter(argu) 
+{
+   
+     let conversion=(argu * 9/5) + 32;
+      console.log(conversion);
+       
+
+
+    
+}
+Converter(argu);
+let fahrenheit=prompt("enter temp in fahrenheit");
+
+function conversiontwo()
+{
+
+
+}
+//  Q9>Calculate the sum of numbers in an array of numbers
+
+
+
+ let arrel=[10,20,30,40,50,60,70,80,90];
+ let sums=0;
+ for (let i = 0; i<arrel.length; i++) 
+ {
+    sums+=arrel[i];
+
+    
+    
+ }
+ console.log(sums);
+
+//  Q10> Calculate the average of the numbers in an array of numbers
+let average=0;
+let avgsum=0;
+
+ for (let i = 0; i < arrel.length; i++) {
+    
+    average+=arrel[i];
+   
+
+ }
+ console.log(average/2);
