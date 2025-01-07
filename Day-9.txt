@@ -1,0 +1,45 @@
+      // Q1> find the even and odd number in to the array and store that element in separate array and display it.
+      let arr = [
+        1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
+      ];
+      let even = [];
+      let odd = [];
+      for (let i = 0; i < arr.length; i++) {
+        if (arr[i] % 2 == 0) {
+          even.push(arr[i]);
+        } else {
+          odd.push(arr[i]);
+        }
+      }
+      console.log(`this array content even element ${even}`);
+      console.log("this array content odd element" + " " + odd);
+
+      // Q2> find the disting charecter in a string and print it in array
+
+      let str = "mmaayur";
+      let strclone = [];
+      let distarr = [];
+
+      for (let i = 0; i < str.length; i++) {
+        strclone.push(str[i]);
+      }
+
+      function distinct() {
+        for (let j = 0; j < strclone.length; j++) {
+          let isDistinct = true;
+          for (let k = 0; k < distarr.length; k++) {
+            if (strclone[j] === distarr[k]) {
+              isDistinct = false;
+              break;
+            }
+          }
+          if (isDistinct) {
+            distarr.push(strclone[j]);
+          }
+        }
+      }
+
+      distinct();
+
+      console.log(strclone);
+      console.log(distarr);
