@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+   
+    <h1>Interactive List</h1>
+    
+    <input type="text" id="itemInput" placeholder="Enter item">
+    <button onclick="addItem()">Add Item</button>
+
+    <ul id="itemList"></ul>
+    
+    <script>
+        // Q1>find the repited charecter in to the array and display it in an array
+      //   let arr = [10, 20, 20, 30, 40, 40, 50, 60, 70, 80, 90, 100];
+      //   let arr1 = [];
+      //   let flag = true;
+
+      //   for (let i = 0; i < arr.length; i++) {
+      //     for (let j = i + 1; j < arr.length; j++) {
+      //       if (arr[i] === arr[j]) {
+      //         arr1.push(arr[i]);
+      //       }
+      //     }
+      //   }
+
+      //   console.log(arr1);
+
+      // Q2> Create a function that will return the number 1-10 of in text form
+
+    //   function numberToWord(number) {
+    //     let word;
+    //     switch (number) {
+    //       case 1:
+    //         word = "one";
+    //         break;
+    //       case 2:
+    //         word = "two";
+    //         break;
+    //       case 3:
+    //         word = "three";
+    //         break;
+    //       case 4:
+    //         word = "four";
+    //         break;
+    //       case 5:
+    //         word = "five";
+    //         break;
+    //       case 6:
+    //         word = "six";
+    //         break;
+    //       case 7:
+    //         word = "seven";
+    //         break;
+    //       case 8:
+    //         word = "eight";
+    //         break;
+    //       case 9:
+    //         word = "nine";
+    //         break;
+    //       case 10:
+    //         word = "ten";
+    //         break;
+    //       default:
+    //         word = "Number not in dictionary";
+    //     }
+    //     return word;
+    //   }
+    //   let number = 3;
+
+    //   console.log(numberToWord(number));
+
+    // Q3> dom example
+    // function addItem() {
+    //         const itemValue = document.getElementById('itemInput').value;
+    //         if(itemValue.trim() !== "") {
+    //             const li = document.createElement('li');
+    //             li.textContent = itemValue;
+    //             document.getElementById('itemList').appendChild(li);
+    //             document.getElementById('itemInput').value = '';
+    //         } else {
+    //             alert('Please enter a valid item.');
+    //         }
+    //     }
+
+    
+    </script>
+  </body>
+</html>
