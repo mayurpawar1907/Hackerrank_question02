@@ -1,0 +1,67 @@
+//   Write a JavaScript function called reverseWords that takes a sentence as input and returns the sentence with the order of words reversed.
+   let str=prompt("enter you string");
+        let result="";
+    
+        function reverse()
+        {
+            if (str=="" || str==" ")
+             
+            {
+             alert("please enter a valid input")   
+             
+            }
+            for (let i = str.length-1; i >=0 ; i--) {
+             result+=(str[i])
+            
+                
+            }
+        }
+        reverse();
+        console.log(result);
+
+
+    //   Write a JavaScript function called findNthLargest that takes an array of numbers 
+    // and an integer n as input, and returns the nth largest element from the array.
+
+    let arr=[10,20,30,40,50,60,70,80,90,];
+    let largests=[arr[0]];
+
+    function largest()
+    {
+        for (let i = 0; i < arr.length; i++) {
+            if(largests<arr[i]){
+                largests=arr[i]
+                
+
+
+            }
+            
+        }
+
+    }
+    largest()
+    console.log(largests);
+
+
+
+     // find the reapeting cahrecter in to the string and display it
+
+      let str = prompt("enter your string");
+      let arr = [];
+      let result = [];
+      let original = [];
+      for (let k = 0; k < str.length; k++) {
+        arr.push(str[k]);
+      }
+      function calculation() {
+        for (let i = 0; i <= arr.length; i++) {
+          for (let j = i + 1; j <= arr.length; j++) {
+            if (arr[i] == arr[j]) {
+              result.push(arr[j]);
+            }
+          }
+        }
+      }
+      calculation();
+
+      console.log(" this array have dublicate element" + result);
