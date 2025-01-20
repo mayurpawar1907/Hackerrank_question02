@@ -1,0 +1,43 @@
+      // Q1> write a code  for print the valu which grater than array's first element
+
+      // let arr=[10,20,30,70,90,30,50,2,7,5,4,9];
+      // let largest=arr[0];
+      // let uparr=[];
+      // for (let i = 0; i < arr.length; i++)
+      // {
+      //     if (largest<arr[i])
+      //     {
+      //         uparr.push(arr[i])
+
+      //     }
+
+      // }
+      // console.log(uparr);
+
+      // Q2> write a code for print second largest number in array
+      // let arr=[10,40,30,60,80,1,100];
+      // let max=arr[0];
+      // let updatearr=[];
+      // for (let i = 0; i < arr.length-1; i++) {
+      //     if (arr[i]>max)
+      //     {
+      //        updatearr=arr[i]
+
+      //     }
+
+      // }
+      // console.log(updatearr);
+      //  Q3> write a code to   check given nuber exiat in array or not
+
+      // let arr=[10,50,40,70,80,90,100];
+
+      //  {
+      //     if (arr.includes(50)) {
+      //         console.log('this element exist in array')
+
+      //     }else{
+      //         console.log("this number doesn't exist in this array")
+
+      //     }
+
+      // }
