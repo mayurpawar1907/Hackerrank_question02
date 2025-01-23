@@ -1,0 +1,132 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f7f7f7;
+      margin: 0;
+    }
+
+    .counter {
+      font-size: 2.5em;
+      margin-bottom: 30px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    button {
+      background-color: #4caf50; /* Green background */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      margin: 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #45a049;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    button:active {
+      background-color: #388e3c;
+      transform: translateY(1px);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    button:focus {
+      outline: none;
+    }
+  </style>
+  <div class="buttn">
+    <button id="one" onclick="add()">add</button>
+    <button id="two" onclick="remove()">remove</button>
+    <button id="three" onclick="reset()">reset</button>
+    <div class="show">count</div>
+     <button id="three" onclick="greeting()">Click Me</button> 
+    <input
+      id="input"
+      style="
+        width: 300px;
+        height: 40px;
+        border: 1px solid green;
+        border-radius: 10px;
+      "
+      type="text"
+      placeholder="Enter your todo"
+    />
+    <button id="two" onclick="submit()">Submit</button>
+    <div id="show"></div>
+  </div>
+  <body>
+    <script>
+      let count = 0;
+      Q1> reverse the string store in array and print it
+      let str = "strnew";
+      let output = [];
+      for (let i = str.length - 1; i >= 0; i--) {
+        output.push(str[i]);
+      }
+      console.log(output);
+
+       Q2 create  three bottons add remove reset and make it function if we click ont the add button then value will add if we click on remove button value will remove
+
+      let one = document.getElementById("one");
+      let two = document.getElementById("two");
+      let three = document.getElementById("three");
+
+      function add() {
+        count++;
+        console.log(count);
+        document.getElementsByClassName("show")[0].innerHTML = count;
+      }
+      function remove() {
+        count--;
+        console.log(count);
+        document.getElementsByClassName("show")[0].innerHTML = count;
+      }
+      function reset() {
+        count = 0;
+        console.log(count);
+        document.getElementsByClassName("show")[0].innerHTML = count;
+      }
+
+      Q3> create one uuton if user click on thst button first it will show greating after thet i will show that day date
+      let val= document.getElementById('three');
+      let date= new Date();
+      console.log(date);
+
+      function greeting()
+      {
+        alert('hii');
+        alert(`this is Date here : ${date}`);
+
+      }
+
+      Q4> create a  todo app
+      let one = document.getElementById("input");
+      function submit() {
+        document.getElementById("show").innerHTML = one.value;
+        one.value = null;
+      }
+    </script>
+  </body>
+</html>  -->
