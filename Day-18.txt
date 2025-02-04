@@ -1,0 +1,42 @@
+      Q1> Create a fuction that will take input as a string and convert it into array
+      let str = "mayur";
+      let arr = [];
+      let output = () => {
+        for (let i = 0; i < str.length; i++) {
+          arr.push(str[i]);
+        }
+      };
+      output();
+      console.log(arr);
+
+      Q2> find  repeted charecter in array and print it in array
+      let arr = [
+        1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 6, 7, 8, 9, 56, 45, 34, 23, 21, 6, 7, 8,
+        9, 10,
+      ];
+      let arr1 = [];
+      let output = () => {
+        for (let i = 0; i < arr.length; i++) {
+          for (let j = i + 1; j < arr.length; j++) {
+            if (arr[i] == arr[j]) {
+              arr1.push(arr[j]);
+            }
+          }
+        }
+      };
+      output();
+      console.log(arr1);
+
+      Q3>  write a code to find avarage of an array
+      let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 22, 30, 40, 506];
+      let sum = 0;
+      let result = 10;
+      let output = () => {
+        for (let i = 0; i < arr.length; i++) {
+          sum += arr[i];
+        }
+        result = sum / 2;
+      };
+      output();
+      console.log(sum);
+      console.log("this is the avarage of an array " + " " + result);
