@@ -1,0 +1,27 @@
+Q1> getArea(length, width): Calculate and return the area of a rectangle having sides length and width .
+ans- 
+function getArea(length, width) {
+    let area;
+     area=(length*width)
+    
+    return area;
+}
+Q2> getPerimeter(length, width): Calculate and return the perimeter of a rectangle having sides length  and width.
+ ans -
+      function getPerimeter(length, width) {
+     let perimeter;
+     perimeter=(length*2)+(width*2)
+    
+     return perimeter;
+}
+Q3>Implement a function named factorial that has one parameter: an integer, n. It must return the value of  n!(i.e.n,  factorial).
+ans-
+    function factorial(n)
+{
+   let no=1;
+        for (let i = n; i >0 ; i--) {
+            no=no*i;
+            
+        }
+   return no;
+}
